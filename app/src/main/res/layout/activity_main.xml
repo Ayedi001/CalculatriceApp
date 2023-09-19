@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/black"
-    tools:context=".MainActivity">
+    tools:context="com.app.calculator.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,7 +24,7 @@
             android:gravity="end"
             android:textColor="@color/black"
             android:textSize="30sp"
-            tools:text="5+10-3" />
+            tools:text="21+5-5" />
 
         <TextView
             android:id="@+id/output"
@@ -33,7 +33,7 @@
             android:gravity="end"
             android:textSize="50sp"
             android:textColor="@color/black"
-            tools:text="12" />
+            tools:text="21" />
 
     </LinearLayout>
 

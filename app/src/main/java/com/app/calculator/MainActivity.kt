@@ -1,8 +1,9 @@
-package com.codingformobile.calculator
+package com.app.calculator
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.core.content.ContextCompat
+import com.codingformobile.calculator.R
 import kotlinx.android.synthetic.main.activity_main.*
 import org.mariuszgromada.math.mxparser.Expression
 import java.text.DecimalFormat
